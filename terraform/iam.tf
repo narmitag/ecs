@@ -50,8 +50,7 @@ resource "aws_iam_user_policy" "publisher" {
         "ecr:GetLifecyclePolicy",
         "ecr:InitiateLayerUpload",
         "ecr:PutImage",
-        "ecr:UploadLayerPart",
-        "cloudwatch:*"
+        "ecr:UploadLayerPart"
       ],
       "Effect": "Allow",
       "Resource": "*"
